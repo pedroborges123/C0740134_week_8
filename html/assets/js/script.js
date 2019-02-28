@@ -28,3 +28,13 @@ function ChallengeTwo() {
 
     console.log("Challenge TWO:", ChallengeOne(parseInt(initial), parseInt(final), parseInt(step)));
 }
+
+
+//Challenge Three
+
+var messages = ["Test1", "Test2", "Test3","Test4","Test5"];
+
+function ChallengeThree() {
+    var rand = Math.floor(Math.random() * 5) + 1;
+    alert(messages[rand]);
+}
